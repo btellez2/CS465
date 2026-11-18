@@ -7,3 +7,13 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+
+const path = require('path');
+
+const pages = ['rooms', 'meals', 'news', 'about', 'contact'];
+
+for (const page of pages) {
+    router.get(`/${page}`, (req, res) => {
+        res.sendFile(path.join(__dirname, '..', 'public', `${page}.html`));
+    });
+}
