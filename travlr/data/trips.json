@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Gale Reef",
+    "image": "reef1.jpg",
+    "description": "Gale Reef offers a glimpse of colorful coral in clear coastal waters."
+  },
+  {
+    "name": "Dawson’s Reef",
+    "image": "reef2.jpg",
+    "description": "Dawson’s Reef is a destination for travelers who enjoy exploring marine life."
+  },
+  {
+    "name": "Claire’s REEF",
+    "image": "reef3.jpg",
+    "description": "Claire’s REEF gives visitors a place to enjoy the water and surrounding coastline."
+  }
+]
